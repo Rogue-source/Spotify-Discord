@@ -15,8 +15,11 @@
 :root {
 	--accent-color: #1db954;
 	--accent-hover: #1ed760;
-	--accent-rgb: 29,185,84;
+	--accent-rgb: 142,187,250;                     /* @mention color + Hover dms color + Add server hover color*/
 	--accent-text-color: #fff; /*	-	*/
+
+	--alt-accent: rgb(80, 233, 149);             /* Friend Request background color */
+	--alt-accent-text-color: rgb(15, 14, 14);    /* Friend Request text color + Pin dms color*/
 
 	--chat-color: #121212;
 	--chat-box-color: #272727;
@@ -35,7 +38,7 @@
 	--popout-radius: 7px;
 	--popout-radius-small: 3px; /*	-	*/
 
-	--input-color: #e0e0e0;
-	--input-text-color: #333;
-	--input-placeholder-color: #444;
+	--input-color: #40444B;                      /* The Bar where you type */
+	--input-text-color: #e0e0e0;                 /* The Typing text color */
+	--input-placeholder-color: #e0e0e0;          /* The color of the images in typing bar */
 }
